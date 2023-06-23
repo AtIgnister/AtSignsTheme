@@ -1,0 +1,14 @@
+/**
+* @name AtSignsBeforeUsernames
+* @author @AtIgnister
+* @description Appends at Signs to the start of Usernames without Discrimators.
+* @version 1.0
+*/
+
+.userTagUsernameBase-267ALn:before {
+  content: "@";
+}
+
+.userTagWithNickname-13lfvd:has(span.discrimBase-v65kTs) > span.username-3JLfHz::before {
+  content: "";
+}
